@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    color: #666;
+}
+
+.pimg2, .pimg3, .pimg4,.pimg5,.pimg6,.pimg7,.pimg8{
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; = parallax
+    background-attachment: scroll; = normal */
+    background-attachment: fixed;
+}
+
+.pimg1{
+    position:relative;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.pimg1{
+   background-image: url('../7Wonders.jpg');
+     /* Set rules to fill background */
+  min-height: 1000px;
+  min-width: 100%;	
+  /* Set up proportionate scaling */
+   width: 100%;
+  height: 100%; 
+  background-size: cover;
+}
+
+.pimg2{
+    background-image: url('../TajMahal.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+.pimg3{
+    background-image: url('../GreatWallofChina.jpg');
+    width: 100%;
+    height: 500px;
+}
+
+.pimg4{
+    background-image: url('../Petra.jpg');
+    width: 100%;
+    height: 500px;
+}
+
+.pimg5{
+    background-image: url('../MachuPicchu.jpg');
+    width: 100%;
+    height: 500px;
+}
+
+
+.pimg6{
+    background-image: url('../ChristTheRedeemer.jpg');
+    width: 100%;
+    height: 500px;
+}
+
+
+.pimg7{
+    background-image: url('../ChichénItzá.jpg');
+    width: 100%;
+    height: 500px;
+}
+
+
+.pimg8{
+    background-image: url('../Colosseum.jpg');
+    width: 100%;
+    height: 700px;
+} 
+
+
+/* Align the text */
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+
+}
+
+.ptext{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    text-size-adjust: 17px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: whitesmoke;
+    padding: 10px;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
