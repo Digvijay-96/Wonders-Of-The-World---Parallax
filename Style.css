@@ -28,7 +28,7 @@ body,html{
     position:relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .pimg1{
